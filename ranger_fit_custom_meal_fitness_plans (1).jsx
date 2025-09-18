@@ -19,7 +19,8 @@ export default function IronEdge() {
           mixBlendMode: "soft-light",
         }}
       />
-
+[build]
+  node_version = "14"
       {/* Nav */}
       <header className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-black/40 bg-black/20 border-b border-white/10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
